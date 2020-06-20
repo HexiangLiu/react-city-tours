@@ -9,17 +9,17 @@ export default function Navbar() {
       <img src={logo} alt="logo" className="nav__logo" />
       <ul className="nav__links">
         <li>
-          <a href="#" className="nav__link">
+          <a href="/" className="nav__link">
             home
           </a>
         </li>
         <li>
-          <a href="#" className="nav__link">
+          <a href="/" className="nav__link">
             about
           </a>
         </li>
         <li>
-          <a href="#" className="nav__link active">
+          <a href="/" className="nav__link active">
             tours
           </a>
         </li>

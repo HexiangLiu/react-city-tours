@@ -1,0 +1,24 @@
+$color-black: #222;
+$color-black-1: rgb(96, 87, 87);
+$color-white: #fff;
+$color-grey: #ececec;
+$color-green: #82b340;
+$color-green-light: #50d890;
+$color-green-light-1: #94d3ac;
+
+html {
+  font-size: 62.5%; // 1rem = 10px;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  background-color: $color-white;
+  color: $color-black;
+  font-size: 1.5rem;
+}

@@ -1,0 +1,45 @@
+@import '../index.scss';
+
+.nav {
+  display: grid;
+  background-color: $color-black;
+  padding: 0.5rem 1rem;
+  grid-template-columns: auto 1fr;
+  align-items: center;
+
+  @media screen and (max-width: 25em) {
+    grid-template-columns: 1fr;
+  }
+
+  &__links {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+
+    @media screen and (max-width: 25em) {
+      flex-direction: column;
+    }
+  }
+
+  &__link,
+  &__link:visited,
+  &__link:link {
+    display: inline-block;
+    color: $color-white;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: all 0.3s;
+
+    @media screen and (max-width: 25em) {
+      margin-top: 3px;
+    }
+  }
+
+  &__link:hover {
+    color: $color-green;
+  }
+}
+
+.active {
+  color: $color-green !important;
+}

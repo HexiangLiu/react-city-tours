@@ -1,0 +1,13 @@
+@import '../index.scss';
+
+.cardlist {
+  width: 70vw;
+  max-width: 1170px;
+  margin: 0 auto;
+
+  padding: 2rem 0;
+
+  @media screen and (max-width: 37.5em) {
+    width: 100%;
+  }
+}
